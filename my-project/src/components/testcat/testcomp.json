@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_testcat_testcomps",
+  "info": {
+    "displayName": "testcomp"
+  },
+  "options": {},
+  "attributes": {
+    "period": {
+      "type": "string"
+    },
+    "value": {
+      "type": "float"
+    }
+  }
+}

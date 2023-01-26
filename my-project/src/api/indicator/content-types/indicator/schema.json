@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "indicators",
+  "info": {
+    "singularName": "indicator",
+    "pluralName": "indicators",
+    "displayName": "indicator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "float"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "yeardatas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::yeardata.yeardata"
+    },
+    "testcompfield": {
+      "displayName": "testcomp",
+      "type": "component",
+      "repeatable": true,
+      "component": "testcat.testcomp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yeardatas",
+  "info": {
+    "singularName": "yeardata",
+    "pluralName": "yeardatas",
+    "displayName": "yeardata"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "period": {
+      "type": "string"
+    },
+    "value": {
+      "type": "float"
+    }
+  }
+}
